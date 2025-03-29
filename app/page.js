@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <main className="bg-[url(/bg.jpg)] bg-cover bg-center bg-fixed bg-no-repeat min-h-svh flex flex-col justify-center items-start p-20">
+    <main className="bg-[url(/bg.jpg)] bg-cover bg-center bg-fixed bg-no-repeat min-h-svh flex flex-col justify-center items-start lg:p-20 p-10">
      
      <section className="hero">
         <div className="container">
