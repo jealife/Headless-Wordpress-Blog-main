@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
 
         <ApolloWrapper>
           <header className='w-full flex justify-center items-center px-5'>
-            <div className='rounded-full w-full max-w-lg mx-auto flex justify-center items-center py-4 bg-white/70 backdrop-blur-lg absolute top-4 z-50'>
+            <div className='rounded-full w-full px-5 max-w-lg mx-auto flex justify-center items-center py-4 bg-white/70 backdrop-blur-lg absolute top-4 z-50'>
             <nav className="px-3 flex gap-5">
               <Link href={"/"}>Accueil</Link>
               <Link href={"/blog"}>Blog</Link>
